@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <form method="POST" action="https://formspree.io/figarskak@gmail.com">
+        <label for="imie"></label>
+        <input type="text" placeholder="Imie" id="imie" name="imie">
+
+        <br><br>
+        <label for="nazwisko"></label>
+        <input type="text" placeholder="Nazwisko" id="nazwisko" name="nazwisko">
+
+        <br><br>
+        <label for="email"></label>
+        <input type="text" placeholder="Email" id="email" name="email">
+
+        <br><br>
+        <label for="telefon"></label>
+        <input type="text" placeholder="Numer telefonu" id="telefon" name="telefon">
+
+
+        <br><br>
+        <button type="submit">Send</button>
+
+        <br><br>
+        <!-- Lista rozwijana -->
+        <p>Wybór miasta:</p>
+        <select name="Wybór miasta">
+		<option>Kraków</option>
+		<option>Warszawa</option>
+		<option>Gdańsk</option>
+	    </select>
+
+        <br><br>
+        <!-- Pole typu RADIO -->
+        <p>Podaj swoją płeć:</p>
+        <input type="radio" name="Płeć" value="Kobieta" />Kobieta
+        <input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna
+
+        <br><br>
+        <!-- Pole typu CHECKBOX -->
+        <p>Zgoda na dane osobowe:</p>
+        <input type="checkbox" name="Tak" value="Tak" />Tak<br>
+        <input type="checkbox" name="Nie" value="Nie" />Nie
+
+        <br><br>
+        <p>Wiadomość do opiekuna szkolenia:</p>
+        <textarea maxlength="1000" placeholder="Wiadomość"></textarea>
+    </form>
+</body>
+
+</html>

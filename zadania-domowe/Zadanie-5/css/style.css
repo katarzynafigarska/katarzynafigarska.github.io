@@ -1,0 +1,44 @@
+body {
+   
+}
+
+
+h1 {
+    color: darkblue;
+}
+
+.kursywa {
+    opacity: 0.6;
+    color: darkblue;
+}
+
+.okno1 {
+    margin-left: 100px;
+}
+
+.okno2{
+    margin-left: 100px;
+}
+
+input[type=text]{
+    width: 350px;
+}
+
+input[type=tel]{
+    width: 400px;
+}
+
+input[type=email]{
+    width: 450px;
+}
+
+input[type=number]{
+    width: 300px;
+}
+
+
+button[type=submit] {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}

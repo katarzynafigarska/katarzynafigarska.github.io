@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>A Simple Form</h1>
+        <i class="kursywa">Form Fundamentals</i>
+    </header>
+
+    <br>
+    <form method="POST" action="https://formspree.io/figarskak@gmail.com" autocomplete="on">
+        <fieldset>
+            <legend>Customer Info</legend>
+    
+            <div class="okno1">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter your name" id="name" name="imie" autofocus="autofocus" required>
+
+
+                <br><br>
+                <label for="telephone">Telephone:</label>
+                <input type="tel" pattern="[0-9]-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Pattern: 1-234-567-8910" id="telephone" name="telefon" required>
+
+                <br><br>
+                <label for="email">Email adress:</label>
+                <input type="email" multiple placeholder="Enter your email adress" id="email" name="email" required>
+            </div>
+        </fieldset>
+
+
+        <br><br>
+        <fieldset>
+            <legend>Books</legend>
+            <div class="okno2">
+                <input type="text" size="50">
+
+                <label for="quanity">Quanity (Maximum 5):</label>
+                <input type="number" id="quanity" name="quanity" min="1" max="5">
+            </div>
+        </fieldset>
+
+
+        <br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+
+</html>

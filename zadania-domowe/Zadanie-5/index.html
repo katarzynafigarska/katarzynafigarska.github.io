@@ -38,7 +38,14 @@
         <fieldset>
             <legend>Books</legend>
             <div class="okno2">
-                <input type="text" size="50">
+                <input list="ksiazki">
+                    <datalist id="ksiazki">
+                        <option value="Pan Tadeusz">
+                        <option value="Potop">
+                        <option value="Ogniem i mieczem">
+                        <option value="Pan wołodyjowski">
+                        <option value="W pustyni i w puszczy">
+                    </datalist>
 
                 <label for="quanity">Quanity (Maximum 5):</label>
                 <input type="number" id="quanity" name="quanity" min="1" max="5">

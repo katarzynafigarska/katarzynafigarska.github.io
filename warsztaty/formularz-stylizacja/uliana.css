@@ -1,0 +1,59 @@
+form {
+    background-color: #213b50;
+    width: 400px;
+    padding: 20px;
+    color: white;
+}
+
+form input, form select {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form select, form input[type="text"], form input[type="tel"], form input[type="email"], form textarea {
+    width: 300px;
+    background-color: #213b50;
+    color: #fff;
+    border: #213b50 1px solid;
+    height: 25px;
+}
+
+form textarea {
+    line-height: normal;
+}
+
+form select:focus, form input:focus, form textarea:focus {
+    background-color: #4e708c;
+    border: #fff 1px solid;
+    outline: none;
+}
+
+form input[type="checkbox"] {
+    float: left;
+}
+
+form input[type="submit"] {
+    background-color: #1ac056;
+    border: #2b4a64 1px solid;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #46e881;
+}
+
+
+
+
+/*
+przycisk wysyłania robi sie inputem a nie buttonem
+*/
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form method="POST" action="https://formspree.io/figarskak@gmail.com">
+        <label for="imie">Imię:</label><br>
+        <input type="text" id="imie" name="imie" autofocus="autofocus">
+
+        <br><br>
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" id="nazwisko" name="nazwisko">
+
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+        <label for="telefon">Telefon:</label><br>
+        <input type="text" id="telefon" name="telefon">
+
+        <br>
+        <!-- Lista rozwijana -->
+        <p>Wybór miasta:</p>
+        <select name="Wybór miasta">
+		<option>Kraków</option>
+		<option>Warszawa</option>
+		<option>Gdańsk</option>
+	    </select>
+
+        <br>
+        <!-- Pole typu RADIO -->
+        <p>Podaj swoją płeć:</p>
+        <label for="kobieta">Kobieta</label>
+        <input type="radio" id="kobieta" name="Płeć" value="Kobieta">
+        <label for="mezczyzna">Mężczyzna</label>
+        <input type="radio" id="mezczyzna" name="Płeć" value="Mężczyzna">
+
+        <br>
+        <p>Wiadomość do opiekuna szkolenia:</p>
+        <label for="wiadomosc">Wiadomość:</label><br><br>
+        <textarea cols="25" id="wiadomosc" maxlength="1000" name="wiadomosc"></textarea>
+        
+         <br>
+        <label><input type="checkbox">Wyrażam zgodę na przetwarzanie danych osobowych:</label>
+        
+        
+        <br><br>
+        <button type="submit">SEND</button>
+    </form>
+</body>
+
+</html>

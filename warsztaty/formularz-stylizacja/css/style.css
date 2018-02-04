@@ -1,0 +1,54 @@
+form {
+    background-color: #213b50;
+    width: 400px;
+    padding: 20px;
+    color: white;
+}
+
+button {
+    background-color: green;
+    padding: 5px;
+    width: 70px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #46e881;
+    cursor: pointer;
+}
+/*
+cursor: not-allowed; - nie wybieralne pole
+*/
+
+input[type="text"],
+input[type="email"],
+textarea,
+select
+{
+    background-color: #2b4a64;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #2b4a64;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus
+{
+    background-color: #2b4a64;
+}
+
+input[type="text"]:active,
+input[type="email"]:active,
+select:active,
+textarea:active
+{
+    background-color: #4e708c;
+    border: #ffffff;
+}

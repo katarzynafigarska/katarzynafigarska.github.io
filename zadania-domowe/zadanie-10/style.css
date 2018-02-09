@@ -78,6 +78,6 @@ body {
     opacity: 0;
 }
 
-.fas:hover {
+.nakladka:hover .fas {
     opacity: 1;
 }

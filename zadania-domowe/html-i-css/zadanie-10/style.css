@@ -63,7 +63,7 @@ body {
     height: 337px;
     background-color: rgba(255, 165, 0, 0);
     position: relative;
-    transition: 0.5s linear;
+    transition: 1s linear;
 }
 
 .nakladka:hover {
@@ -77,7 +77,7 @@ body {
     left: 40%;
     color: white;
     opacity: 0;
-    transition: 0.5s linear;
+    transition: 1s linear;
 }
 
 .nakladka:hover .fas {

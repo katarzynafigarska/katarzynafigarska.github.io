@@ -1,0 +1,158 @@
+body{
+  background-color: black;
+  
+  
+}
+#container {
+  background-color: green;
+  width: 450px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  position: relative;
+  border: 3px solid #ffffff;
+
+}
+
+
+#kwadrat1 {
+  width: 149px;
+  height: 149px;
+  background-color: red;
+  float:left;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  
+}
+
+#kwadrat2 {
+  width: 148px;
+  height: 149px;
+  background-color: blue;
+  float:left;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  
+}
+
+#kwadrat3 {
+  width: 149px;
+  height: 149px;
+  background-color: darkgreen;
+  float:left;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+ }
+  
+  
+#kwadrat4 {
+  width: 149px;
+  height: 148px;
+  background-color: yellow;
+  float:left;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+ }
+
+ 
+#kwadrat5 {
+  width: 148px;
+  height: 148px;
+  background-color: black;
+  float: left;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+ }
+
+#kwadrat6 {
+  width: 149px;
+  height: 148px;
+  background-color: orange;
+  float: left;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+ }
+
+#kwadrat7 {
+  width: 149px;
+  height: 149px;
+  background-color: darkviolet;
+  float: left;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+ }
+ 
+#kwadrat8 {
+  width: 148px;
+  height: 149px;
+  background-color: gray;
+  float: left;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+ }
+ 
+ 
+#kwadrat9 {
+  width: 149px;
+  height: 149px;
+  background-color: pink;
+  float: left;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  
+ }
+ 
+ 
+#circle1 {
+  background-color: pink;
+}
+
+#circle2 {
+  background-color: gray;
+}
+
+#circle3 {
+  background-color: darkviolet;
+}
+
+#circle4 {
+  background-color: darkgreen;
+}
+
+#circle5 {
+  background-color: red;
+}
+
+#circle6 {
+  background-color: blue;
+}
+
+#circle7 {
+  background-color: orange;
+}
+
+#circle8 {
+  background-color: yellow;
+}
+
+#circle9 {
+  background-color: black;
+}
+
+.kola {
+  width:70px;
+  height: 70px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  margin-left: 40px;
+  margin-top: 40px;
+  position: absolute;
+  
+}

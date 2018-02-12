@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#rodzic {
+    display: flex;
+    height: 300px;
+}
+
+header {
+    background-color: red;
+    padding: 1px 0;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.left {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+    height: 30vh;
+}
+
+.right {
+    background-color: pink;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+    justify-content: flex-end;
+    height: 30vh;
+}
+
+article {
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    height: 30vh;
+}
+
+footer {
+    background-color: violet;
+    padding: 1px 0;
+}
+
+
+@media all and (min-width: 992px) {
+    #container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .left {
+        order: -2;
+    }
+}
+
+
+@media all and (max-width: 768px){
+    #container, .left {
+      display: flex;
+      flex-direction: column;
+    }
+    .right {
+        order:1;
+    }
+}
+
+
+ @media (min-width: 768px) and (max-width: 992px){
+    article, .right {
+       display: table-cell;
+    }
+}

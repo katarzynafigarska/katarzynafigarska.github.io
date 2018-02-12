@@ -1,0 +1,100 @@
+body {
+  background-color: #000;
+}
+
+.liczba {
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  animation: 1s liczby;
+  animation-fill-mode: forwards;
+  font-size: 100px;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25vh;
+  animation: 1s tekst;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+  visibility: hidden;
+  font-size: 70px;
+}
+
+#odliczanie {
+  position: relative;
+  width:50%;
+  height:50vh;
+  text-align: center;
+  margin-top:20%;
+  margin-left:25%;
+  font-weight: 300;
+}
+
+
+@keyframes liczby{
+    0%{
+        visibility: hidden;
+    }
+    99%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes tekst{
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+#dziesiec {
+   animation: 1s liczby;
+  animation-fill-mode: forwards;
+}
+
+#dziewiec{
+  animation-delay: 1s;
+}
+
+#osiem{
+    animation-delay: 2s;
+}
+
+#siedem{
+  animation-delay: 3s;
+}
+
+#szesc{
+    animation-delay: 4s;
+}
+
+#piec{
+  animation-delay: 5s;
+}
+
+#cztery{
+     animation-delay: 6s;
+}
+
+#trzy{
+    animation-delay: 7s;
+}
+
+#dwa{
+     animation-delay: 8s;
+}
+
+#jeden{
+   animation-delay: 9s;
+}

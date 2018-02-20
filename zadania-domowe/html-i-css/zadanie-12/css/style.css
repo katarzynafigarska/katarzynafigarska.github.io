@@ -11,11 +11,6 @@ body {
 
 }
 
-#rodzic {
-    display: flex;
-    height: 300px;
-}
-
 header {
     background-color: red;
     padding: 1px 0;

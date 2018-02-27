@@ -1,0 +1,122 @@
+#pojemnik {
+    background-color: yellow;
+    width: 400px;
+    height: 600px;
+    margin-left: 450px;
+    position: absolute;
+}
+
+#wynik {
+    background-color: darkgray;
+    width: 353px;
+    height: 75px;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+#del {
+    background-color: skyblue;
+    width: 175px;
+    height: 75px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+.przycisk {
+	width: 80px;
+    height: 75px;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 50px;
+    margin: 5px 20px 5px 0;
+}
+
+
+#procent {
+	margin-left: 8px;
+    margin-right: 8px;
+}
+
+#plus {
+	margin-right: 8px;
+}
+
+#siedem {
+	margin-left: 25px;
+    margin-right: 8px;
+}
+
+#osiem {
+	margin-right: 8px;
+}
+
+#dziewiec {
+	margin-right: 9px;
+    margin-left: 2px;
+   
+}
+
+#minus {
+	margin-right: 8px;
+}
+
+#cztery {
+	margin-left: 25px;
+    margin-right: 8px;
+}
+
+#piec {
+	margin-right: 8px;
+}
+
+#szesc {
+	margin-right: 9px;
+    margin-left: 2px;
+}
+
+#razy {
+	margin-right: 8px;
+}
+
+#podziel {
+	margin-right: 8px;
+}
+
+#jeden {
+	margin-left: 25px;
+    margin-right: 8px;
+}
+
+
+#dwa{
+	margin-right: 8px;
+}
+
+#trzy {
+	margin-right: 8px;
+    margin-left: 2px;
+}
+
+#zero {
+	margin-left: 25px;
+    margin-right: 8px;
+    width: 175px;
+}
+
+#kropka{
+	margin-right: 8px;
+}
+
+#oblicz {
+	margin-right: 8px;
+    background-color: green;
+}

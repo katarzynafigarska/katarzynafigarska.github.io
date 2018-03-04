@@ -1,10 +1,9 @@
 'use strict';
 
 
-
 $(function(){
     
-    var mainNav = $('#main-nav');
+   var mainNav = $('#main-nav');
    $(window).scroll(function(){
        
        if (window.scrollY > ($('#main-header').height()/10)) {
@@ -18,3 +17,17 @@ $(function(){
    });
     
 });
+
+
+$(".scrollowanie").each(function() {
+            
+            // event click dla każdego elementu pętli
+            $($(this)).click(function() {
+                
+                //animacja skrolowania z przesunięciem o 60 pikseli aby pasek nawigacji nie zasłaniał tytułu sekcji
+                $("html, body").animate({
+                    scrollTop: $($(this).attr('href')).offset().top - 55
+                }, 2000);
+            });
+        });
+

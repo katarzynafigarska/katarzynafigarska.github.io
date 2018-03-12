@@ -1,0 +1,82 @@
+#contact {
+    background-color: #213b50;
+    color: #fff;
+    overflow: hidden;
+
+    .contact-data {
+        width: 50%;
+        float: left;
+
+        h2 {
+            text-align: left;
+            font-size: 38px;
+        }
+
+        address {
+            font-style: normal;
+            margin: 72px 0;
+            line-height: 25px;
+
+            a {
+                color: #1ac056;
+            }
+        }
+
+        .contact-social-icons {
+            a {
+                display: inline-block;
+                color: #fff;
+                height: 38px;
+                width: 38px;
+                text-align: center;
+                line-height: 38px;
+                border: 1px solid #fff;
+                margin-right: 30px;
+                font-size: 22px;
+            }
+
+            a:hover {
+                color: #213b50;
+                border: 1px solid #213b50;
+                background-color: #fff;
+            }
+        }
+    }
+
+    .contact-form {
+        width: 50%;
+        float: left;
+        margin-top: 100px;
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #2b4a64;
+            border: #2b4a64 0px;
+            color: #fff
+        }
+
+        form input:focus,
+        form textarea:focus {
+            background-color: #426684;
+        }
+
+        form input[type="submit"] {
+            background-color: #1ac056;
+            color: #fff;
+            width: auto;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 15px 30px;
+            float: right;
+            border: 1px #1ac056 solid;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #fff;
+            color: #1ac056;
+        }
+    }
+}

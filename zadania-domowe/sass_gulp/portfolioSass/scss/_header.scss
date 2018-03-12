@@ -1,0 +1,23 @@
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+
+
+    .main-header-content {
+        padding: 30vh;
+        text-align: center;
+    }
+    .main-header-content h1 {
+        font-size: 4em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+    }
+
+    .main-header-content h2 {
+        font-weight: 200;
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,23 @@
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+
+    figure {
+        width: 50%;
+        margin: 0;
+        float: left;
+        text-align: center;
+
+        img {
+            max-height: 350px;
+            border: 14px #fff solid;
+            border-radius: 15px;
+            max-width: 100%;
+        }
+    }
+
+    article {
+        width: 50%;
+        float: left;
+    }
+}

@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+
+#first {
+    margin: 0 auto;
+    width: 98vw;
+    margin-top: 150px;
+    height: 150px;
+    background-color: white;
+}
+
+#yellow {
+    width: 2vw;
+    height: 150px;
+    background-color: #ffcc33;
+    display: block;
+    float: left;
+}
+
+#yellow > p {
+    text-transform: uppercase;
+    color: white;
+    transform: rotate(-90deg);
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+    display: block;
+    margin: 65px -40px;
+    float: left;
+}
+
+#text {
+    display: block;
+    float: left;
+    width: 26vw;
+    margin-left: 10px;
+    padding: 0 10px;
+}
+
+#text > h3,
+p {
+    font-size: 15px;
+}
+
+span {
+    font-size: 8px;
+}
+
+
+
+.fa-circle {
+    color: #ffcc33;
+}
+
+.value {
+    width: 8vw;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.value .red {
+    color: red;
+    display: inline;
+}
+
+.value span {
+    display: inline;
+    text-align: center;
+
+}
+
+.value h2 {
+    display: inline;
+    font-size: 15px;
+}
+
+#line {
+    height: 80px;
+    border-right: 1px solid gray;
+    margin-top: -90px;
+    opacity: 0.5;
+}
+
+#line2 {
+    height: 80px;
+    border-right: 1px solid gray;
+    margin-top: -105px;
+    opacity: 0.5;
+}
+
+#line3 {
+    height: 80px;
+    border-right: 1px solid gray;
+    margin-top: -90px;
+    opacity: 0.5;
+}
+
+
+button {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 102, 0, 1));
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-left: 2vw;
+    font-size: 10px;
+}
+
+.fa-eye,
+.fa-balance-scale {
+    display: inline-block;
+    opacity: 0.5;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+
+.fa-eye:hover {
+    opacity: 1;
+    color: greenyellow;
+}
+
+.fa-balance-scale:hover {
+    opacity: 1;
+    color: deepskyblue;
+}

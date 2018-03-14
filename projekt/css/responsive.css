@@ -64,6 +64,7 @@
     #line {
         position: absolute;
         left: 20vw;
+        top: 15vh;
     }
 
     #table-second {

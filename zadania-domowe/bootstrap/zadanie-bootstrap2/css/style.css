@@ -1,12 +1,10 @@
-
-
 #age {
     color: #ffcc33;
     margin-left: 250px;
 }
 
 #navbarSupportedContent {
-    margin-right: 250px;
+/*    margin-right: 250px;*/
 
 }
 
@@ -18,7 +16,7 @@ ul > li > a {
 
 
 #tel {
-	  padding: 5% 20%;
+    padding: 5% 20%;
 }
 
 #main-nav a:hover {
@@ -36,11 +34,11 @@ ul > li > a {
     font-size: 1.8rem;
     color: white;
     font-weight: 100;
-    
+
 }
 
 
-#phone {
+.phone {
     position: relative;
     left: 100px;
     height: 400px;
@@ -50,7 +48,8 @@ ul > li > a {
     background-size: contain;
 }
 
-#screen {
+
+.screen {
     position: absolute;
     top: 46px;
     left: 13px;
@@ -60,7 +59,6 @@ ul > li > a {
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 2;
-
 }
 
 
@@ -87,24 +85,26 @@ ul > li > a {
 #discover {
     background-color: #ffcc33;
     height: auto;
-    padding: 20vh;
+    padding: 20vh 30vw;
 }
 
 
 .img {
-    text-align: center;
-    max-height: 100px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
     border: 0;
     margin: 0;
-    padding: 0;
+    background: rgba(0, 0, 0, 0);
 }
 
 
 #unlimited {
     background-color: white;
-    height: auto;
-    padding: 15vh 0;
+    padding: 5vh 10vw;
 }
+
+
 
 #unlimited #line {
     margin-bottom: 100px;
@@ -115,13 +115,15 @@ ul > li > a {
     border: 0.5px solid lightgray;
     display: inline-block;
     text-align: center;
-    
 }
 
-
-#unlimited .row {
+#unlimited .phone {
+    left: 0;
+    display: inline-block;
     text-align: center;
+  
 }
+
 
 .items .item {
     margin-bottom: 50px;
@@ -129,16 +131,8 @@ ul > li > a {
 
 
 .items .item .fa {
-
     color: palevioletred;
-
 }
-
-.ult-phone img {
-    max-height: 450px;
-    max-width: 250px;
-}
-
 
 
 #waiting {

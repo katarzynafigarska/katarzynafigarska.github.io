@@ -1,0 +1,148 @@
+/*GENERAL STYLES*/
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top right, #EF81F7, #2533F7);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 3px 3px 30px 5px rgba(0, 0, 0, 0.7);
+}
+
+#container p {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 40px;
+}
+
+/*PHOTOS*/
+
+#container #photo {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#container #photo .team {
+    height: 110px;
+    width: 110px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#container #photo #first {
+    background-image: url(..//img/man-1.jpg);
+    border-radius: 50%;
+    margin-right: 5vw;
+}
+
+#container #photo #second {
+    background-image: url(..//img/man-2.jpg);
+    border-radius: 50%;
+}
+
+#container #photo #third {
+    background-image: url(..//img/woman-1.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    left: 130px;
+    box-shadow: 3px 3px 30px 5px rgba(0, 0, 0, 0.4);
+}
+
+/*STYLING THE EMAIL FIELD*/
+
+#container input[type=email] {
+    border: none;
+    width: 390px;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+
+#container input[type=email]:hover{
+    border: none;
+}
+
+.input{
+    font-family: Arial, FontAwesome;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #AAA;
+}
+
+.input:focus + .underline {
+    transform: scale(1);
+}
+
+.underline {
+    background-color: #2533F7;
+    height: 1px;
+    left: 50px;
+    position: absolute;
+    top: 355px;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    width: 400px;
+}
+
+/*STYLING BUTTON FIELD*/
+
+#container button {
+    width: 400px;
+    background-image: linear-gradient(to bottom, #EF81F7, #cc99ff);
+    font-size: 20px;
+    color: white;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #eee;
+    background-size: 600% auto;
+}
+
+#container button:hover {
+    background-position: right center;
+    background-image: linear-gradient(to right, #EF81F7 0%, #cc33ff 51%, #EF81F7 100%);
+    outline: none;
+}
+
+#container button:focus {
+    box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+}
+

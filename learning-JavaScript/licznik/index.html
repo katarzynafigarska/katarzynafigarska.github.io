@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <button>Dodaj</button>
+    <button>Odejmnij</button>
+
+    Liczba kliknięc: <span class="counter">0</span>
+
+
+
+    <script src="js/main.js"></script>
+
+
+    <script>
+        //Potrzebne zmienne
+        let counter = 0;
+
+
+        //Pobieramy potrzebne elementy strony
+        const spanCounter = document.querySelector("span.counter");
+        const btnAdd = document.querySelector('button');
+        const btnMinus = document.querySelector('button:nth-child(2)');
+        //const clickElement = document.querySelector("body");   //I sposób
+        //document.body // II sposób
+
+        //nałuchiwanie na zdarzenie + określenie akcji w funkcji
+        //document.body.addEventListener("click", function () {
+        //counter = counter + 1; // 0 + 1
+        //console.log(counter);
+        // spanCounter.textContent = counter;
+        //})
+
+
+
+        btnAdd.addEventListener("click", function () {
+            //counter = counter + 1; // 0 + 1
+            //możn też tak zapisac
+            counter++
+
+            //console.log(counter);
+            spanCounter.textContent = counter;
+        })
+
+        btnMinus.addEventListener("click", function () {
+            counter = counter - 1; // 0 + 1
+            //counter--
+            //console.log(counter);
+            spanCounter.textContent = counter;
+        })
+    </script>
+</body>
+
+</html>
